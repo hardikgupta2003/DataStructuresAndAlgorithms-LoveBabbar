@@ -68,5 +68,12 @@
     "typeindex": "cpp",
     "typeinfo": "cpp",
     "valarray": "cpp"
-  }
+  },
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++17 -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "c": "cd $dir && gcc -std=c17 -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c17"
 }
