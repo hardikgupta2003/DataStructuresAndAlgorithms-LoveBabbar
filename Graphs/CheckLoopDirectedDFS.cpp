@@ -4,7 +4,9 @@
 #include <queue>
 #include <utility>
 #include <functional>
-#include <cmath>using namespace std;
+#include <cmath>
+
+using namespace std;
 
 // } Driver Code Ends
 class Solution
